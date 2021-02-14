@@ -1,6 +1,15 @@
 # SegmentationToScribble
 Convert segmentation binary mask into scribble binary mask
 
+### Example
+**Segmentation**  
+![segmentation example](example/example.gif)
+
+**points scribbles** (positive points in white, negative points in black, points has been dilated for better visualization)  
+![points example](example/example_points.gif)
+
+**skeleton scribbles** (skeleton in white, skeleton has been dilated for better visualization)  
+![skeleton example](example/example_skeleton.gif)
 
 # Special requirements
 In addition to the usual dependencies, we use the following libraries :
